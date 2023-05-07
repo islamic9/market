@@ -1,0 +1,61 @@
+.shopNowBlog{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.shopNowInner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
+
+.shopNowBackground {
+    background: #FEB786;
+    height: 330px;
+}
+
+.title {
+    max-width: 291px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47px;
+    color: #5C1B05;
+    padding-top: 15px;
+}
+
+
+.shopNowText {
+    padding: 8px 0 24px 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #5C1B05;
+}
+
+.shopNowBtn{
+    padding: 10px 32px 12px 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 123px;
+    background: #FEB786;
+    border: 1px solid;
+    svg{
+        font-size: 20px;
+        padding-left: 8px;
+    }
+}
+
+.shopNowImagesWrapper{
+    img{
+        width: 280px;
+    }
+}
+
+.saveItPicture{
+    text-align: center;
+}
+
+

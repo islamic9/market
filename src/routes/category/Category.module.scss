@@ -1,0 +1,198 @@
+.navbar__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 9px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 19px;
+
+    .li {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.navbar__link {
+    display: block;
+    display: flex;
+    align-items: center;
+    color: #5C1B05;
+
+}
+
+.searchWrapper {
+    padding: 23px 0 23px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.searchStrong {
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+
+    svg {
+        font-size: 16px;
+    }
+}
+
+.siteLogo {
+    padding-right: 34px;
+}
+
+.searchListWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+    li {
+        cursor: pointer;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #555555;
+        padding: 8px 0;
+    }
+
+    li:hover {
+        color: #00000039;
+    }
+}
+
+
+
+// 
+
+
+.categoryBanner {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.categoryBannerTitle {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin: 33px 0 17px 0;
+}
+
+.categoryBannerImg{
+    width: 100%;
+    object-fit: contain;
+}
+
+.categoryBannerText {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-top: 25px;
+}
+
+.categoryBannerDesc{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #707070;
+    padding: 5px 0 25px 0;
+}
+
+
+// categoryProduct
+
+
+.categoryProductCard{
+    cursor: pointer;
+    box-shadow: 0 0 10px grey;
+    padding: 10px;
+    border-radius: 15px 15px 60px 0;
+    max-width: 270px;
+    transition: all .3s ease-in-out;
+}
+
+.categoryProductCard:hover{
+    transform: scale(1.07);
+    box-shadow: 0 0 30px#5C1B05;
+}
+
+.categoryProductsWrapper{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.categoryProductImg{
+    width: 270px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 60px 10px;
+    
+}
+
+.categoryProductTitle{
+    font-weight: 900;
+    padding-bottom: 7px;
+}
+
+.categoryProductName{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: #5C1B05;
+}
+
+.categoryProductText{
+    font-weight: 900;
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+
+.categoryStrong{
+    color: grey;
+    font-weight: normal;
+}
+
+
+// 
+
+
+.categoryFooter{
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: 1px solid #E5E5E5;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 24px;
+        padding-bottom: 20px;
+        li{
+            color: #707070;
+        }
+    }
+
+    p{
+        font-weight: 600;
+        font-size: 18px;
+        color: #555555;
+    }
+}

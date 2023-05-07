@@ -1,0 +1,40 @@
+.registerTitle {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 46px;
+    text-align: center;
+    color: #191919;
+    padding-top: 20px;
+}
+
+form {
+    max-width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.registerInp, .registerBtn {
+    width: 300px;
+    height: 40px;
+    background: #F7F7F7;
+    background: #F7F7F7;
+    border: 1px solid #8F8F8F;
+    border-radius: 8px;
+    transition: all .3s ease-in;
+}
+
+.registerBtn{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.registerBtn:hover{
+    background: rgb(197, 246, 124);
+    color: grey;
+    transition: all .3s ease;
+}

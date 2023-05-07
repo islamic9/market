@@ -1,0 +1,47 @@
+.categoryBackground{
+    background: #FEB786;
+}
+
+.AllCategoriesWrapper{
+    margin-top: 194px;
+    padding: 20px 0 20px 0;
+}
+
+.categoriesTitle{
+    color: #5C1B05;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}
+
+.allCategoriesBlog{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.categoryImg{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.categoryImg:hover{
+    transform: scale(1.07);
+    box-shadow: 0 0 30px #fd7114;
+}
+
+.categoryTitle{
+    font-weight: 600;
+    font-size: 20px;
+    color: #5C1B05;
+    text-align: center;
+    width: 120px;
+    text-decoration: transparent;
+    margin: auto;
+    padding-top: 15px;
+}

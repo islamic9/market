@@ -1,0 +1,26 @@
+.navbar__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 9px;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 19px;
+    .li{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.navbar__link{
+    display: block;
+    display: flex;
+    align-items: center;
+    color: #5C1B05;
+
+}
